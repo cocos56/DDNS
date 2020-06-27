@@ -1,3 +1,2 @@
 TIMEOUT /T 6 /NOBREAK
-python D:\0\Desktop\DDNS\main.py
-pause
+python F:\GP\DDNS\main.py
