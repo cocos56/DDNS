@@ -1,2 +1,2 @@
-TIMEOUT /T 6 /NOBREAK
+TIMEOUT /T 15 /NOBREAK
 python F:\GP\DDNS\main.py
