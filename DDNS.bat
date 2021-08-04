@@ -1,3 +1,3 @@
-TIMEOUT /T 15 /NOBREAK
+TIMEOUT /T 30 /NOBREAK
 python F:\GP\DDNS\main.py
 pause
