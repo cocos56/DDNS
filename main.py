@@ -5,6 +5,13 @@ from datetime import datetime
 
 while True:
     print(datetime.now())
-    updateDomainRecord()
-    sleep(15)
-    print()
+    flag = True
+    try:
+        updateDomainRecord()
+    except Exception as e:
+        flag = False
+        print(e)
+        sleep(15)
+        print()
+    if flag:
+        break
